@@ -1,0 +1,23 @@
+table {
+    width: 95%; /*ancho del area del borde*/
+    border-collapse: collapse; /*permite elegir el modo de presentación de los bordes de las celdas y de la tabla.*/
+}
+table, th, td {
+    border: 1px solid #0a0909;
+    background-color: white;
+}
+.btn-agregar {
+  
+    margin-bottom: 20px;
+}
+.btn-agregar button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #19747E;
+    color: white;
+    transition: background-color 0.3s;
+}
+.btn-agregar button:hover {
+    background-color: #114e54;
+}

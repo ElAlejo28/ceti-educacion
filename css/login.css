@@ -1,0 +1,54 @@
+*{
+    margin: 0; /*Todos los elemtos tengan un margen de 0*/
+    padding: 0;
+    box-sizing: border-box; /*El ancho ocupe tanto el borde y el pading*/
+}
+body{
+    background-color: #66a6d8;
+}
+.form-reg{
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 200px; /*se sentró el contenedor del formlario*/
+    border-radius: 4px;
+    font-family: 'Calibri';   
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+
+}
+.form-reg h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: white;
+}
+.controles{
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Calibri';
+    font-size: 19px;
+}
+.form-reg p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.form-reg a{
+    color: white;
+    text-decoration: none;
+}
+.form-reg .botones{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}

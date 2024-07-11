@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Calibri';
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    text-align: justify;
+    color: white;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    
+}
+
+.header {
+    background-color: #346d98;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    height: 60px;
+}
+
+.header img {
+    height: 70px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-left: 20px; /* Espaciado a la izquierda de la imagen */
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1; /* Permite que el nav crezca para ocupar el espacio disponible */
+}
+
+.header a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px; /* Aumenta el padding para hacer el encabezado más alto y ancho */
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header a:hover {
+    background-color: hsl(206, 49%, 40%);;
+    color: black;
+}
+
+.header .login {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 12px; /* Esquinas redondeadas */
+    margin-right: 40px; /* Espaciado a la derecha del botón */
+}
+
+.header .login:hover {
+    background-color: #45a049;
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/
+
+.contenido {
+background-color: white;
+}
+
+
+
+.enfermería img{
+    width: 400px;
+    border-radius: 15;
+}
+.enfermería{
+    width: 400px;
+    background-color: #124475;
+    margin: auto;
+    padding: 30px;
+    margin-top: 10%; /*se sentró el contenedor del formlario*/
+    border-radius: 4px;
+    font-family: 'Calibri';
+    box-shadow: 7px 13px 37px #000;
+    font-size: 20px;
+}
+
+.estilismo{
+    width: 400px;
+    background-color: #124475;
+    padding: 30px;
+    margin: auto;
+    margin-top: 5%; /*se sentró el contenedor del formlario*/
+    border-radius: 4px;
+    font-family: 'Calibri';   
+    box-shadow: 7px 13px 37px #000;
+    font-size: 20px;
+}
+.estilismo div{
+    width: 90%;
+    padding: 15%;
+    background-color: #66a6d8;
+    border-radius: 15%;
+    margin-bottom: 15;
+    text-align: justify;
+
+}
+.estilismo img{
+    width: 400px;
+    border-radius: 15;
+
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+.idiomas{
+    width: 400px;
+    background-color: #124475;
+    padding: 30px;
+    margin: auto;
+    margin-top: 5%; /*se sentró el contenedor del formlario*/
+    border-radius: 4px;
+    font-family: 'Calibri';   
+    box-shadow: 7px 13px 37px #000;
+    font-size: 20px;
+}
+.idiomas div{
+    width: 90%;
+    padding: 15%;
+    background-color: #66a6d8;
+    border-radius: 15%;
+    margin-bottom: 15;
+    text-align: justify;
+
+}
+.idiomas img{
+    width: 400px;
+    border-radius: 15;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+.Asistente{
+    width: 400px;
+    background-color: #124475;
+    padding: 30px;
+    margin: auto;
+    margin-top: 5%; /*se sentró el contenedor del formlario*/
+    border-radius: 4px;
+    font-family: 'Calibri';   
+    box-shadow: 7px 13px 37px #000;
+    font-size: 20px;
+}
+.Asistente div{
+    width: 90%;
+    padding: 15%;
+    background-color: #66a6d8;
+    border-radius: 15%;
+    margin-bottom: 15;
+    text-align: justify;
+}
+.Asistente img{
+    width: 400px;
+    border-radius: 15;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+.prepa{
+    width: 400px;
+    background-color: #124475;
+    padding: 30px;
+    margin: auto;
+    margin-top: 5%; /*se sentró el contenedor del formlario*/
+    border-radius: 4px;
+    font-family: 'Calibri';   
+    box-shadow: 7px 13px 37px #000;
+    font-size: 20px;
+    }
+.prepa div{
+    width: 90%;
+    padding: 15%;
+    background-color: #66a6d8;
+    border-radius: 15%;
+    margin-bottom: 15;
+    text-align: justify;
+}
+.prepa img{
+    width: 400px;
+    border-radius: 15;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+.informatica{
+    width: 400px;
+    background-color: #124475;
+    padding: 30px;
+    margin: auto;
+    margin-top: 5%; /*se sentró el contenedor del formlario*/
+    border-radius: 4px;
+    font-family: 'Calibri';   
+    box-shadow: 7px 13px 37px #000;
+    font-size: 20px;
+}
+.informatica div{
+    width: 90%;
+    padding: 15%;
+    background-color: #66a6d8;
+    border-radius: 15%;
+    margin-bottom: 15;
+    text-align: justify;
+}
+.informatica img{
+    width: 400px;
+    border-radius: 15;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+.piedepagina{
+    background-color:hsl(206, 49%, 40%);;
+    margin-top: 100px;
+}
+.piedepagina p{
+    padding: 30px;
+    font-size: 25px;
+    text-align: center  ;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+

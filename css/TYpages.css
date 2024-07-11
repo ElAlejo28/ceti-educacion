@@ -1,0 +1,79 @@
+body{
+    background-color: #66a6d8;
+    
+}
+nav{
+    width: 200px;
+    background-color:#24303c;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+    color: white;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+nav ul li:hover {
+    background-color: #19747E;
+
+}
+nav ul li.activo {
+    background-color: #19747E;
+}
+nav ul li i{
+    margin-right: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: inherit;/*hereda el color del elemento superiro*/
+}
+.contenido{
+color: white;
+    text-align: left;
+    margin-left: 200px; /*debe ser igual al ancho del manÃº*/
+    padding: 20px;
+    width: calc(100% - 200px); /*Ajusta el contenido considerando el menÃº*/
+}
+.contenido table{
+    color: black;
+}
+form{
+      /* Centrar el formulario en la pÃ¡gina */
+  margin: 0 auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  margin-top: 20px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul li{
+    padding: 5px;
+  }
+.btn-agregar {
+    margin-bottom: 20px;
+    
+}
+.btn-agregar button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+    background-color: #19747E;
+    color: white;
+    transition: background-color 0.1s;
+}
